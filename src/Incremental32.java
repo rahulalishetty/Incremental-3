@@ -41,9 +41,9 @@ public class Incremental32 {
         cycle1 = (UniCycle) cycle1;//down casting
         cycleArray[0] = cycle1;
         cycle2 = (BiCycle) cycle2;
-        cycleArray[0] = cycle2;
+        cycleArray[1] = cycle2;
         cycle3 = (TriCycle) triCycle;
-        cycleArray[0] = cycle3;
+        cycleArray[2] = cycle3;
 
         for (int i = 0; i < cycleArray.length; i++)
             cycleArray[i].balance();
